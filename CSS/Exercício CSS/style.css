@@ -1,0 +1,25 @@
+body {
+    background-color: #2c3e50;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+li {
+    color: #ffffff;
+}
+
+#days-of-week {
+    color: #f1c40f;
+}
+
+#activities h2 {
+    color: #000000;
+    background-color: #f1c40f;
+    border: 2px solid;
+}
+
+#astronomy-class {
+    color: #ff0000;
+}

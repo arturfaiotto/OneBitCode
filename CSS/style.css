@@ -1,0 +1,24 @@
+li{
+    color:#ffffff;
+}
+
+h1{
+    font-size:50px;
+    font-family: fantasy;
+    background-color: rgb(255, 116, 2);
+}
+
+body {
+    background-image: url('https://s2.best-wallpaper.net/wallpaper/1920x1080/1811/Jupiter-stars-space_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.aquamarine-text {
+    color: aquamarine;
+}
+
+#blue-text {
+    color: blue;
+    font-style: italic;
+}

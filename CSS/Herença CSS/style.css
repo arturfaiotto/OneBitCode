@@ -1,0 +1,9 @@
+div {
+    color: aqua;
+    border: 2px solid;
+}
+
+div ul{
+    color: red;
+    border: inherit;
+}

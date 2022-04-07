@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align-last: center;
+    text-align: justify;
+    color: #ffffff;
+    background-image: url('https://i.pinimg.com/originals/21/39/e0/2139e0405ae392726363954e18afa342.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-decoration: underline;
+}
