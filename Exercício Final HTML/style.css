@@ -1,4 +1,4 @@
-.message-header {
+/* .message-header {
     color: black;
     font-weight: bold;
     background-color: white;
@@ -15,19 +15,20 @@
 body {
     background-image: url('BG-Claro.png');
     background-repeat: no-repeat;
-    }
-
+} 
+    
 .columns .column {
-    opacity: 0.9;
-}
+    opacity: 0.90;
+} */
+
 
 /* Para alterar o site para cores claras, basta comentar o BODY e descomentar as classes acima. */
 
-/* body {
+body {
     background-image: url('BG-Dark.jpg');
     background-repeat: no-repeat;
 } 
 
 .columns .column {
-    opacity: 0.9;
-} */
+    opacity: 0.90;
+}
