@@ -12,3 +12,22 @@
     border-color: gainsboro;
 }
 
+body {
+    background-image: url('BG-Claro.png');
+    background-repeat: no-repeat;
+    }
+
+.columns .column {
+    opacity: 0.9;
+}
+
+/* Para alterar o site para cores claras, basta comentar o BODY e descomentar as classes acima. */
+
+/* body {
+    background-image: url('BG-Dark.jpg');
+    background-repeat: no-repeat;
+} 
+
+.columns .column {
+    opacity: 0.9;
+} */
