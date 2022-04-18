@@ -1,3 +1,3 @@
 # JAVASCRIPT
  
-Estudo de Box Model em CSS.
+Estudo de operações básicas Javascript.
