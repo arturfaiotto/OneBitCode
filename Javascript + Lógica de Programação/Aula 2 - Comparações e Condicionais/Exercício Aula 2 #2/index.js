@@ -26,21 +26,20 @@ let opeConversao = prompt('Qual das seguintes operações deseja utilizar para c
 
 switch (opeConversao) {
     case "PC":
-        DistConvertida = distanciaLY / 0.303301
-        alert('Distância em Anos-luz: ' + distanciaLY + '\nDistância em '+ opeConversao + ': ' + DistConvertida)
+        DistConvertida = distanciaLY * 0.303301
     break;
     case "AU":
-        DistConvertida = distanciaLY / 63241.1
-        alert('Distância em Anos-luz: ' + distanciaLY + '\nDistância em '+ opeConversao + ': ' + DistConvertida)
+        DistConvertida = distanciaLY * 63241.1
     break;
     case "KM":
-        DistConvertida = distanciaLY / 9.5*Math.pow(10,12)
-        alert('Distância em Anos-luz: ' + distanciaLY + '\nDistância em '+ opeConversao + ': ' + DistConvertida)
+        DistConvertida = distanciaLY * 9.5*Math.pow(10,12)
     break;
-    case "4":
+    case "SAIR":
         alert('Obrigado por utilizar nosso sistema.')
     break;
     default:
         alert('Distância em Anos-luz: ' + distanciaLY + '\nUnidade não identificada: Conversão fora do escopo.')
     break;
 }    
+
+alert('Distância em Anos-luz: ' + distanciaLY + '\nDistância em '+ opeConversao + ': ' + DistConvertida)
